@@ -2,6 +2,7 @@ import React from "react";
 import CountDown from "./components/CountDown";
 import Calculator from "./components/caculater";
 import RandomMath from "./components/RandomMath";
+import TodoList from "./components/ToDoList";
 function App() {
   return (
     <>
@@ -13,6 +14,8 @@ function App() {
         <CountDown />
         <hr className="h-3 w-full my-6"></hr>
         <RandomMath />
+        <hr className="h-3 w-full my-6"></hr>
+        <TodoList />
       </div>
     </>
   );
